@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt – Raumwerk Innenarchitektur Potsdam</title>
+<meta name="description" content="Schreiben oder besuchen Sie uns. Brandenburger Straße 42, 14467 Potsdam. Telefon +49 331 270 89 45.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <a href="index.html" class="nav-logo">Raumwerk<span class="dot"></span></a>
+  <ul class="nav-links">
+    <li><a href="index.html">Studio</a></li>
+    <li><a href="projekte.html">Projekte</a></li>
+    <li><a href="leistungen.html">Leistungen</a></li>
+    <li><a href="ueber-uns.html">Über uns</a></li>
+    <li><a href="kontakt.html" class="nav-cta active">Kontakt</a></li>
+  </ul>
+  <div class="burger"><span></span><span></span><span></span></div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Studio</a> · Kontakt</div>
+    <h1>Schreiben oder<br><em>besuchen</em> Sie uns.</h1>
+    <p>Wir freuen uns auf Ihr Projekt. Schreiben Sie uns über das Formular, rufen Sie an – oder kommen Sie auf einen Espresso vorbei.</p>
+  </div>
+</section>
+
+<!-- Contact -->
+<section>
+  <div class="container">
+    <div class="contact-grid">
+      <div class="fade-in">
+        <span class="eyebrow">Direkt</span>
+        <h2>So erreichen Sie <em>uns</em>.</h2>
+        <div style="margin-top: 3rem;">
+          <div class="contact-info-block">
+            <div class="label">Studio</div>
+            <span class="value-text">Brandenburger Straße 42</span>
+            <span style="color: var(--ink-soft);">14467 Potsdam · Berliner Vorstadt</span>
+          </div>
+          <div class="contact-info-block">
+            <div class="label">Telefon</div>
+            <a href="tel:+493312708945" class="value-text">+49 331 270 89 45</a>
+            <span style="color: var(--ink-soft); display: block;">Mo – Fr · 09 – 17 Uhr</span>
+          </div>
+          <div class="contact-info-block">
+            <div class="label">E-Mail</div>
+            <a href="mailto:studio@raumwerk-potsdam.de" class="value-text">studio@raumwerk-potsdam.de</a>
+            <span style="color: var(--ink-soft); display: block;">Antwort innerhalb von zwei Werktagen</span>
+          </div>
+          <div class="contact-info-block">
+            <div class="label">Anfahrt</div>
+            <span style="color: var(--ink-soft); display: block; line-height: 1.7;">S-Bahn Babelsberg · 12 Min Fußweg<br>Tram 92, 96 · Haltestelle Schillerplatz<br>Parkplätze im Hof (begrenzt)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form fade-in fade-in-delay-1">
+        <h3 style="margin-bottom: 0.5rem;">Anfrage senden</h3>
+        <p style="font-size: 0.95rem; margin-bottom: 2rem;">Wir melden uns innerhalb von drei Werktagen.</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Ihr Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefon (optional)</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="type">Projektart</label>
+            <select id="type" name="type">
+              <option>Privates Wohnen</option>
+              <option>Gastronomie</option>
+              <option>Hotellerie</option>
+              <option>Gewerbe / Praxis</option>
+              <option>Möbel / Sonderanfertigung</option>
+              <option>Beratung</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Worum geht's?</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="consent" required>
+            <label for="consent" style="margin: 0; text-transform: none; letter-spacing: normal; font-size: 0.85rem;">Ich habe die <a href="datenschutz.html">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu.</label>
+          </div>
+          <button type="submit" class="btn btn-arrow" style="width: 100%; justify-content: center;">Anfrage senden</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Map -->
+<section style="padding-top: 0;">
+  <div class="container">
+    <div class="map-block fade-in">
+      <div class="map-pin-info">
+        <strong>Raumwerk Studio</strong>
+        Brandenburger Str. 42 · 14467 Potsdam
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <div class="footer-brand">Raumwerk<span class="dot"></span></div>
+        <p>Innenarchitektur Studio<br>Brandenburger Straße 42<br>14467 Potsdam</p>
+        <div class="socials">
+          <a href="#">In</a><a href="#">Pi</a><a href="#">Li</a><a href="#">Be</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h5>Studio</h5>
+        <ul>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="leistungen.html">Leistungen</a></li>
+          <li><a href="projekte.html">Projekte</a></li>
+          <li><a href="#">Journal</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Kontakt</h5>
+        <ul>
+          <li><a href="tel:+493312708945">+49 331 270 89 45</a></li>
+          <li><a href="mailto:studio@raumwerk-potsdam.de">studio@raumwerk-potsdam.de</a></li>
+          <li><a href="kontakt.html">Anfahrt</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h5>Öffnungszeiten</h5>
+        <ul>
+          <li>Mo – Do · 09 – 18 Uhr</li>
+          <li>Fr · 09 – 16 Uhr</li>
+          <li>Sa · nach Vereinbarung</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2014 – 2026 Raumwerk Innenarchitektur GmbH</span>
+      <ul class="legal-links">
+        <li><a href="impressum.html">Impressum</a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+        <li><a href="#">AGB</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
